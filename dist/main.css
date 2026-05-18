@@ -1,0 +1,57 @@
+body {
+  overflow-x: hidden;
+}
+body .cards-features h1 {
+  text-align: center;
+}
+body .cards-features .card {
+  transition: transform 0.2s ease;
+}
+body .cards-features .card:hover {
+  transform: scale(1.02);
+  color: white;
+  background-color: cornflowerblue;
+}
+body .cards-features .card:hover .btn-primary {
+  background-color: white;
+  color: cornflowerblue;
+}
+body header {
+  position: sticky;
+}
+body .row {
+  width: 80%;
+  display: flex;
+  margin: 50px auto;
+}
+body .row .right {
+  text-align: right;
+}
+body main .statistic {
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+}
+body main .statistic .stat-number {
+  font-size: 50px;
+  font-weight: bold;
+}
+body main .statistic .stat-name {
+  font-size: 20px;
+}
+body main .carousel {
+  margin-bottom: 100px;
+}
+body main .carousel img {
+  height: 650px;
+}
+body main .table-responsive {
+  width: 60%;
+  margin: 0 auto;
+}
+body .bi-trash {
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */

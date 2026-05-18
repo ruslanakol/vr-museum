@@ -1,0 +1,16 @@
+{
+  "name": "chaos-museum-platform",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev-ts": "tsc src/main.ts --outDir dist --watch",
+    "dev-scss": "sass src/styles/main.scss dist/main.css --watch",
+    "dev": "concurrently \"npm run dev-ts\" \"npm run dev-scss\"",
+    "build": "tsc src/main.ts --outDir dist && sass src/styles/main.scss dist/main.css"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "sass": "^1.71.1",
+    "typescript": "^5.2.2"
+  }
+}
