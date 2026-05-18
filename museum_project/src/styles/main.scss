@@ -1,0 +1,65 @@
+body {
+    overflow-x: hidden;
+
+    .cards-features {
+       h1 {
+        text-align: center;
+       }
+       .card {
+        transition: transform 0.2s ease;
+        &:hover { 
+            transform: scale(1.02);
+            color: white;
+            background-color: cornflowerblue;
+            .btn-primary {
+                background-color: white;
+                color: cornflowerblue;
+            }
+        }
+       }
+    }
+    header {
+        position: sticky;
+    }
+
+    .row {
+        width: 80%;
+        display: flex;
+        margin: 50px auto;
+
+        .right {
+            text-align: right;
+        }
+    }
+    main {
+       .statistic {
+        margin: 100px auto;
+        display: flex;
+        justify-content: space-around;
+
+        .stat-number {
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .stat-name {
+            font-size: 20px;
+        }
+       } 
+       .carousel {
+        margin-bottom: 100px; 
+        img {
+            height: 650px;
+        }
+       }
+      .table-responsive {
+        width: 60%;
+        margin: 0 auto;
+       }
+    }
+
+    .bi-trash {
+        cursor: pointer;
+        margin-left: 20px;
+    }
+}
